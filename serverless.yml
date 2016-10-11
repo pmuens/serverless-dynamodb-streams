@@ -15,4 +15,4 @@ functions:
   logger:
     handler: handler.logger
     events:
-      - stream: arn:aws:dynamodb:<region>:<account-id>:table/<table-name>/stream/<timestamp>
+      - stream: arn:aws:dynamodb:<region>:<account-id>:table/users/stream/<timestamp>
