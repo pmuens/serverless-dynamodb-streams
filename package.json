@@ -1,5 +1,5 @@
 {
-  "name": "serverless-dynamodb-stream",
+  "name": "serverless-dynamodb-streams",
   "version": "0.1.0",
   "description": "Serverless service to showcase DynamoDB stream support",
   "scripts": {
