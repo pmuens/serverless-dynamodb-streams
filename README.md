@@ -1,0 +1,1 @@
+# Serverless DynamoDB stream
