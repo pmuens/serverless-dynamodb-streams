@@ -1,4 +1,4 @@
-# Serverless DynamoDB stream
+# Serverless DynamoDB streams
 
 Serverless service to showcase DynamoDB stream support.
 
@@ -6,10 +6,10 @@ Serverless service to showcase DynamoDB stream support.
 
 Make sure that you use Serverless v1.
 
-1. Run `serverless install --url https://github.com/pmuens/serverless-dynamodb-stream` to install the service in your current working directory
-2. Next up cd into the service with `cd serverless-dynamodb-stream`
+1. Run `serverless install --url https://github.com/pmuens/serverless-dynamodb-streams` to install the service in your current working directory
+2. Next up cd into the service with `cd serverless-dynamodb-streams`
 3. Run `npm install`
-4. Create a new DynamoDB table called `users` and enable Stream support for this table
+4. Create a new DynamoDB table called `users` and enable stream support for this table
 5. Update the stream ARN property in the `serverless.yml` file with the stream ARN for your `users` table
 6. Deploy with `serverless deploy`
 
