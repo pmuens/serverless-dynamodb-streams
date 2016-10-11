@@ -1,0 +1,18 @@
+service: serverless-dynamodb-stream
+
+provider:
+  name: aws
+  runtime: nodejs4.3
+  iamRoleStatements:
+    - Effect: "Allow"
+      Resource: "*"
+      Action:
+        - "dynamodb:*"
+
+functions:
+  updateProfile:
+    handler: handler.updateProfile
+  logger:
+    handler: handler.logger
+    events:
+      - stream: arn:aws:dynamodb:<region>:<account-id>:table/<table-name>/stream/<timestamp>
