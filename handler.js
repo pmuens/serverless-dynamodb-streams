@@ -16,9 +16,8 @@ module.exports.updateProfile = (event, context, callback) => {
   return dynamoDb.put(params, (error, data) => {
     if (error) {
       callback(error);
-    } else {
-      callback(null, { message: 'Profile successfully updated', params });
     }
+    callback(null, { message: 'Profile successfully updated', params });
   });
 };
 
