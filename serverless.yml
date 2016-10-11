@@ -1,4 +1,4 @@
-service: serverless-dynamodb-stream
+service: serverless-dynamodb-streams
 
 provider:
   name: aws
